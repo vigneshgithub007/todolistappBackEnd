@@ -231,7 +231,7 @@ let forgotPasswordMail = (email, userId) => {
                         <div class="card card-1">
                             <h3 class="header"> CHANGE PASSWORD</h3>
                             <br>
-                            <p class="text-center">Please click on the <a href="http://localhost:4200/change-password/${userId}">Link</a> to change password</p>
+                            <p class="text-center">Please click on the <a href="http://veeramakali.ga/change-password/${userId}">Link</a> to change password</p>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@ let invitationEmail = (userId, name, email) => {
     
         // setup email data with unicode symbols
         let mailOptions = {
-            from: '"Fred Foo 👻" <laffingDragons@gmail.com>', // sender address
+            from: 'vikkiraj1995@gmail.com', // sender address
             to: email, // list of receivers
             subject: 'Invitaion Mail', // Subject line
             text: `Hello `, // plain text body
@@ -360,7 +360,7 @@ let invitationEmail = (userId, name, email) => {
                         <div class="card card-1">
                             <h3 class="header"> Invitation Mail</h3>
                             <br>
-                            <p class="text-center">${name} wants you to checkout <a href="http://localhost:4200/sign-up?userId=${userId}">ToDo</a> app.</p>
+                            <p class="text-center">${name} wants you to checkout <a href="http://veeramakali.ga/sign-up?userId=${userId}">ToDo</a> app.</p>
                         </div>
                     </div>
                 </div>
