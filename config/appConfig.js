@@ -1,12 +1,12 @@
 let appConfig = {};
 let nodeMailer = {};
 
-appConfig.port = 3000;
+appConfig.port = 23456;
 appConfig.allowedCorsOrigin = "*";
 appConfig.env = "dev";
 appConfig.db = {
     
-     uri: 'mongodb://127.0.0.1:27017/todoapplist'
+     uri: 'mongodb://127.0.0.1:27018/todoapplist'
 
 }
   
